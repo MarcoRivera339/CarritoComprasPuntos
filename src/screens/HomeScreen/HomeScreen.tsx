@@ -29,16 +29,16 @@ export interface Car {
 export const HomeScreen = () => {
     //arreglo de productos
     const products: Product[] = [
-        { id: 1, name: 'F. azucar', price: 2.30, stock: 10, pathImage: 'https://tienda.propieta.ec/wp-content/uploads/2021/03/azucar-blanca.jpg' },
-        { id: 2, name: 'F. arroz', price: 1.50, stock: 5, pathImage: 'https://www.supermaxi.com/wp-content/uploads/2024/08/items2Figm2F1000x10002F7861042539889-1-1.jpg' },
-        { id: 3, name: 'F. papas', price: 1.00, stock: 10, pathImage: 'https://www.supermercadosantamaria.com/documents/10180/10504/44270_G.jpg' },
-        { id: 4, name: 'F. fideo', price: 0.80, stock: 10, pathImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfyu0O-qOMpWDxFoPPdmVzt6Wdf1MyGgx8WQ&s' },
-        { id: 5, name: 'F. sal', price: 0.50, stock: 10, pathImage: 'https://www.supermaxi.com/wp-content/uploads/2024/08/items2Figm2F1000x10002F7861057500188-1.jpg' },
-        { id: 6, name: 'F. azucar', price: 2.30, stock: 10, pathImage: 'https://tienda.propieta.ec/wp-content/uploads/2021/03/azucar-blanca.jpg' },
-        { id: 7, name: 'F. arroz', price: 1.50, stock: 10, pathImage: 'https://www.supermaxi.com/wp-content/uploads/2024/08/items2Figm2F1000x10002F7861042539889-1-1.jpg' },
-        { id: 8, name: 'F. papas', price: 1.00, stock: 10, pathImage: 'https://www.supermercadosantamaria.com/documents/10180/10504/44270_G.jpg' },
-        { id: 9, name: 'F. fideo', price: 0.80, stock: 10, pathImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfyu0O-qOMpWDxFoPPdmVzt6Wdf1MyGgx8WQ&s' },
-        { id: 10, name: 'F. sal', price: 0.50, stock: 0, pathImage: 'https://www.supermaxi.com/wp-content/uploads/2024/08/items2Figm2F1000x10002F7861057500188-1.jpg' }
+        { id: 1, name: 'Toalla Z', price: 1.35, stock: 10, pathImage: 'https://futuriplast.com/wp-content/uploads/2022/11/TDMN-1.jpg' },
+        { id: 2, name: 'Servilleta', price: 1.50, stock: 10, pathImage: 'https://futuriplast.com/wp-content/uploads/2020/06/SDA300-copia.jpg' },
+        { id: 3, name: 'Vaso 7', price: 1.00, stock: 12, pathImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPRIimct9T5IQ0z74acpiRRGALEiw8P-xLTQ&s' },
+        { id: 4, name: 'Tarrina', price: 0.80, stock: 30, pathImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwnJ_ryz5gqtBeMBhRrXa9HpqN-guNDi4cGA&s' },
+        { id: 5, name: 'Papel x 6', price: 0.50, stock: 10, pathImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcNn3zX8cAUyw3lTteMev0mV0rwFC6FK3s8Q&s' },
+        { id: 6, name: 'P. Instit', price: 2.30, stock: 20, pathImage: 'https://futuriplast.com/wp-content/uploads/2021/02/PHBI-300x300.jpg' },
+        { id: 7, name: 'Contenedor', price: 1.50, stock: 5, pathImage: 'https://www.supermercadosantamaria.com/documents/10180/10504/28483_G.jpg' },
+        { id: 8, name: 'Cuchara', price: 1.00, stock: 12, pathImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRea0oOSoujfIngAGbAN31GJzaykdN9OwAZXw&s' },
+        { id: 9, name: 'P.Pinchos', price: 0.80, stock: 30, pathImage: 'https://www.maxiplasticos.com.ec/wp-content/uploads/2024/05/9.0610-PINCHO-GRANDE-34-CM.jpg' },
+        { id: 10, name: 'F.Basura', price: 0.50, stock: 10, pathImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_vrSKQwjIbf_BHB7TlnDOagC3Obla5-durw&s' }
     ];
 
     //hook usestate para gestionar el estado de los productos

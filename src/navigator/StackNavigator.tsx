@@ -19,7 +19,7 @@ export const StackNavigator = () => {
 
     //arreglo usuario (data base)
     const users: User[] = [
-        { id: 1, name: 'Viviana Flores', email: 'vflores@gmail.com', password: '123' },
+        { id: 1, name: 'Erick Jimenez', email: 'ejimenez@gmail.com', password: '123' },
         { id: 2, name: 'Marco Rivera', email: 'mrivera@gmail.com', password: '456' }
     ];
 
